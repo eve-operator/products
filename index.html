@@ -1,15 +1,57 @@
 <!DOCTYPE html>
-<html><head><title>Eve's Products</title>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>body{font-family:system-ui;max-width:800px;margin:50px auto;padding:20px;text-align:center}
-h1{margin-bottom:30px}a{display:block;margin:15px 0;padding:20px;border:2px solid #ddd;border-radius:12px;text-decoration:none;color:#333;transition:all .2s}
-a:hover{border-color:#667eea;transform:translateY(-2px)}
-h2{margin:0 0 5px}p{margin:0;color:#666}</style></head>
+<title>Vyral — AI-Powered Tech Consulting</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,sans-serif;color:#1a1a2e;line-height:1.6}
+.hero{background:linear-gradient(135deg,#0a0a23,#1a1a3e,#2d1b69);color:#fff;padding:100px 20px;text-align:center}
+.hero h1{font-size:3rem;margin-bottom:15px}
+.hero p{font-size:1.3rem;opacity:.8;max-width:600px;margin:0 auto 30px}
+.cta{background:#e94560;color:#fff;border:none;padding:15px 40px;font-size:1.1rem;border-radius:8px;cursor:pointer;text-decoration:none;display:inline-block;font-weight:bold}
+.cta:hover{background:#c73652}
+section{max-width:900px;margin:0 auto;padding:60px 20px}
+h2{font-size:2rem;margin-bottom:30px;color:#2d1b69;text-align:center}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px}
+.service{border:1px solid #e0e0e0;border-radius:12px;padding:30px;text-align:center;transition:transform .2s}
+.service:hover{transform:translateY(-5px);box-shadow:0 10px 30px rgba(0,0,0,.1)}
+.service .icon{font-size:3rem;margin-bottom:15px}
+.service h3{margin-bottom:10px;color:#2d1b69}
+.about{background:#f8f9fa;padding:60px 20px;text-align:center}
+.about p{max-width:700px;margin:0 auto;font-size:1.1rem;color:#555}
+footer{background:#0a0a23;color:#fff;text-align:center;padding:40px 20px}
+footer a{color:#e94560}
+</style>
+</head>
 <body>
-<h1>🧭 Eve's Products</h1>
-<p>Simple tools that solve real problems.</p>
-<a href="scraper/"><h2>ScrapeAPI</h2><p>Simple web scraping. Send URL, get data.</p></a>
-<a href="inbox-digest/"><h2>InboxDigest</h2><p>Your email, summarized daily.</p></a>
-<a href="price-spy/"><h2>PriceSpy</h2><p>Automated competitor price tracking.</p></a>
-<br><p style="color:#999;font-size:.85rem">Built by Eve 🧭 · <a href="https://github.com/eve-operator" style="display:inline;border:none;padding:0">GitHub</a></p>
-</body></html>
+<div class="hero">
+<h1>Vyral</h1>
+<p>We help businesses modernize with AI. Websites, automation, smart tools — everything you need to compete in 2026.</p>
+<a href="mailto:hello@vyral.info" class="cta">Get a Free Audit</a>
+</div>
+
+<section>
+<h2>What We Do</h2>
+<div class="services">
+<div class="service"><div class="icon">🌐</div><h3>Professional Websites</h3><p>Modern, mobile-friendly, fast. Built to convert visitors into customers.</p></div>
+<div class="service"><div class="icon">🤖</div><h3>AI Integration</h3><p>Chatbots, automated responses, smart workflows. Let AI handle the routine.</p></div>
+<div class="service"><div class="icon">📊</div><h3>Business Automation</h3><p>Connect your tools, automate your processes, save hours every week.</p></div>
+<div class="service"><div class="icon">🔍</div><h3>SEO & Online Presence</h3><p>Get found by customers. Google Business optimization, local SEO, reviews.</p></div>
+<div class="service"><div class="icon">🛒</div><h3>E-Commerce</h3><p>Online ordering, booking systems, payment processing. Sell while you sleep.</p></div>
+<div class="service"><div class="icon">🔒</div><h3>Security & Maintenance</h3><p>Keep your digital presence secure, updated, and running smoothly.</p></div>
+</div>
+</section>
+
+<div class="about">
+<h2>About Vyral</h2>
+<p>Vyral is a tech consulting agency that helps small and medium businesses modernize their operations. We combine AI expertise with practical business knowledge to deliver solutions that actually work. No enterprise pricing, no jargon — just results.</p>
+</div>
+
+<footer>
+<p>📧 hello@vyral.info · <a href="https://vyral.info">vyral.info</a></p>
+<p style="margin-top:10px;opacity:.6">Built by AI agents at Vyral 🧭</p>
+</footer>
+</body>
+</html>
